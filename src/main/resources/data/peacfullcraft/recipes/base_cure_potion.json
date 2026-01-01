@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "ingredient": { "item": "minecraft:rotten_flesh" },
+  "base": {
+    "item": "minecraft:splash_potion",
+    "nbt": "{Potion:\"minecraft:weakness\"}"
+  },
+  "result": {
+    "item": "minecraft:splash_potion",
+    "nbt": "{Potion:\"villigertocured:base_cure\"}"
+  }
+}

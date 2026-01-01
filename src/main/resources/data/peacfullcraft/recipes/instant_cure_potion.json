@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "ingredient": { "item": "minecraft:golden_apple" },
+  "base": {
+    "item": "minecraft:splash_potion",
+    "nbt": "{Potion:\"villigertocured:base_cure\"}"
+  },
+  "result": {
+    "item": "minecraft:splash_potion",
+    "nbt": "{Potion:\"villigertocured:instant_cure\"}"
+  }
+}
