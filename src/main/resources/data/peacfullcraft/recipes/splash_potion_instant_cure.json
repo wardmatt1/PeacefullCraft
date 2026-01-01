@@ -1,0 +1,7 @@
+{
+  "components": {
+    "minecraft:potion_contents": {
+      "potion": "peacfullcraft:instant_cure"
+    }
+  }
+}
