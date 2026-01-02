@@ -1,13 +1,10 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "item.minecraft.potion.effect.base_cure": "Cure Base(No Effect)",
+  "item.minecraft.splash_potion.effect.base_cure": "Cure Base(No Effect)",
+  "item.minecraft.lingering_potion.effect.base_cure": "Cure Base(No Effect)",
+  "item.minecraft.potion.effect.instant_cure": "Cure Base(No Effect)",
+  "item.minecraft.splash_potion.effect.instant_cure": "Cure Base(No Effect)",
+  "item.minecraft.lingering_potion.effect.instant_cure": "Cure Base(No Effect)",
 
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "effect.peacfullcraft.cure_effect": "Villager Buff"
 }

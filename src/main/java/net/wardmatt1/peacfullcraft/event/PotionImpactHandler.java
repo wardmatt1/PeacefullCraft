@@ -19,6 +19,7 @@ import net.minecraft.world.phys.AABB;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 import net.neoforged.neoforge.event.entity.ProjectileImpactEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.wardmatt1.peacfullcraft.registry.ModPotions;
 
 public class PotionImpactHandler {
@@ -146,4 +147,5 @@ public class PotionImpactHandler {
         // Step 3: Instant Cure + Gunpowder → Instant Cure (splash)
         builder.addMix(ModPotions.INSTANT_CURE, Items.GUNPOWDER, ModPotions.INSTANT_CURE);
     }
+
 }
