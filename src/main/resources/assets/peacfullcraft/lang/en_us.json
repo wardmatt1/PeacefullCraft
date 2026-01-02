@@ -2,9 +2,9 @@
   "item.minecraft.potion.effect.base_cure": "Cure Base(No Effect)",
   "item.minecraft.splash_potion.effect.base_cure": "Cure Base(No Effect)",
   "item.minecraft.lingering_potion.effect.base_cure": "Cure Base(No Effect)",
-  "item.minecraft.potion.effect.instant_cure": "Cure Base(No Effect)",
-  "item.minecraft.splash_potion.effect.instant_cure": "Cure Base(No Effect)",
-  "item.minecraft.lingering_potion.effect.instant_cure": "Cure Base(No Effect)",
+  "item.minecraft.potion.effect.instant_cure": "Instant Cure Potion(Try Gun Poweder)",
+  "item.minecraft.splash_potion.effect.instant_cure": "Instant Cure Splash Potion",
+  "item.minecraft.lingering_potion.effect.instant_cure": "Instant Cure Lingering Potion(Wrong One)",
 
   "effect.peacfullcraft.cure_effect": "Villager Buff"
 }

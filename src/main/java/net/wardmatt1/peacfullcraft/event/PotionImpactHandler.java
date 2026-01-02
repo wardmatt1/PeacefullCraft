@@ -119,16 +119,7 @@ public class PotionImpactHandler {
         // ---------------------------------------------------------
         // Clean rename logic — ensure "(Cured)" appears exactly once
         // ---------------------------------------------------------
-        String name = villager.getName().getString();
 
-        // Remove any existing "(Cured)" suffix
-        if (name.endsWith("(Cured)")) {
-            name = name.substring(0, name.length() - "(Cured)".length()).trim();
-        }
-
-        // Apply suffix once
-        villager.setCustomNameVisible(true);
-        villager.setCustomName(Component.literal(name + " (Cured)"));
     }
 
     // ---------------------------------------------------------
