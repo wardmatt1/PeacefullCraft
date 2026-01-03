@@ -14,7 +14,9 @@ public class ModPotions {
 
     public static final DeferredHolder<Potion, Potion> BASE_CURE =
             POTIONS.register("base_cure",
-                    () -> new Potion());
+                    () -> new Potion(
+                            new MobEffectInstance(ModEffects.CURE_INGREDIENT, 1)
+                    ));;
 
     public static final DeferredHolder<Potion, Potion> INSTANT_CURE =
             POTIONS.register("instant_cure",
